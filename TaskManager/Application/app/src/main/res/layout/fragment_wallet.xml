@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorWhiteBackground"
+    tools:context=".parentUI.WalletFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wallet_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="13dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="10dp" />
+</FrameLayout>
